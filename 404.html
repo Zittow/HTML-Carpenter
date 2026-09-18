@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="meta.title.notFound">Page Not Found | Winblad Design</title>
+    <meta
+      name="description"
+      data-i18n-content="meta.desc.notFound"
+      content="The page you're looking for doesn't exist on Winblad Design's website."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" data-i18n-aria-label="a11y.brandHome" aria-label="Winblad Design home">
+          <span class="brand-mark">W</span>
+          <span class="brand-text">Winblad Design</span>
+        </a>
+
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="index.html#about" data-i18n="nav.about">About</a>
+          <a href="index.html#services" data-i18n="nav.services">Services</a>
+          <a href="projects.html" data-i18n="nav.projects">Projects</a>
+          <div class="toggle-group toggle-group-mobile">
+            <button class="lang-toggle" type="button" data-i18n-aria-label="a11y.langToggle" aria-label="Switch language">SV</button>
+            <button class="theme-toggle" type="button" data-i18n-aria-label="a11y.themeToggle" aria-label="Toggle dark mode">🌙</button>
+          </div>
+        </nav>
+
+        <div class="toggle-group toggle-group-desktop">
+          <button class="lang-toggle" type="button" data-i18n-aria-label="a11y.langToggle" aria-label="Switch language">SV</button>
+          <button class="theme-toggle" type="button" data-i18n-aria-label="a11y.themeToggle" aria-label="Toggle dark mode">🌙</button>
+        </div>
+
+        <a href="quote.html" class="nav-cta" data-i18n="nav.quote">Get a Quote</a>
+        <button class="mobile-menu-button" type="button" data-i18n-aria-label="a11y.toggleMenu" aria-label="Toggle menu" aria-expanded="false">
+          <span data-i18n="nav.menu">Menu</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section not-found">
+        <div class="container not-found-box">
+          <span class="eyebrow" data-i18n="notFound.eyebrow">404 error</span>
+          <h1 data-i18n="notFound.h1">This page took a wrong turn.</h1>
+          <p class="lead" data-i18n="notFound.lead">
+            The page you're looking for doesn't exist, may have been moved, or the link might be
+            outdated. Let's get you back on track.
+          </p>
+
+          <div class="hero-actions">
+            <a href="index.html" class="button primary" data-i18n="notFound.homeButton">Back to homepage</a>
+            <a href="quote.html" class="button secondary" data-i18n="shared.requestQuote">Request a quote</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© 2026 Winblad Design</p>
+        <p data-i18n="projects.footerTagline">Built for lasting craftsmanship.</p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
